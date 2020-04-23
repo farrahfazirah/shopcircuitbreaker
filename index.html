@@ -6,8 +6,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="shortcut icon" href="img/ecb.png">
 		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/eatcb.css">
+		<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/oboe.js/2.1.5/oboe-browser.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
 		<title>Eat Circuit Breaker</title>
 
@@ -50,7 +52,7 @@
 
 
 <div class="grid">
-
+<div class="text-center" id="loading">Loading...</div>
 <a href="https://www.8koreanbbq.com/shop/">
 	<div class="card korean card-custom bg-white border-white border-0" style="margin: 1.5rem;" data-category="transition">
 		<div class="card-custom-img" style="background-image: url(https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-9/92264080_2707200299377111_4218989191389773824_n.jpg?_nc_cat=107&_nc_sid=2d5d41&_nc_oc=AQkWz79GS4pmbWbxkgmyRwaqihirMZewnlZVsEAFed63s34pIjS2zfj0tTaSfUbyg1I&_nc_ht=scontent-sin6-1.xx&oh=5e03aae0098337752a491c9c2d570a8f&oe=5EB87B6E);"></div>
@@ -819,30 +821,6 @@ Clementi Collective<br></p>
 </div>
 </a>
 
-<a href="https://yumchaexpress.oddle.me/en_SG/">
-	<div class="card chinese card-custom bg-white border-white border-0" style="margin: 1.5rem;" data-category="transition">
-		<div class="card-custom-img" style="background-image: url(https://ucarecdn.com/5af25294-6e1f-44b2-953b-4e7979583b3e/-/crop/1200x499/0,0/-/format/auto/-/resize/3000x/);"></div>
-		<div class="card-custom-avatar">
-			<img class="img-fluid" style="background-color: #FFF;" src="img/yumcha.png" alt="Avatar" />
-		</div>
-		<div class="card-body" style="overflow-y: auto">
-			<h4 class="card-title">Yum Cha Express </h4>
-			<p class="card-text">
-			Dim sum, Chinese soup, bento etc.</p>
-
-			<p class="card-text">
-
-				<b>🚚 Islandwide Delivery 🚚</b><br>
-				$5 delivery fee. Minimum order $25. Valid from 8 - 14 April 2020. Not applicable to Tuas, Gedong and Jurong Industrial.</b><br>
-
-				<br>
-
-				<b>🚶 Self Pick Up Available 🚶</b><br>
-			15% off ALL pickup orders. Use promo code "PICKMEUP15".<br></p>
-		</div>
-	</div>
-</a>
-
 </div>
 
 <!-- Footer -->
@@ -857,6 +835,6 @@ Clementi Collective<br></p>
 <!-- Footer -->
 
 <script src="js/filter.js"></script>
-<script src="js/backtotop.js"></script>
+<script src="js/fetch.js"></script>
 </body>
 </html>

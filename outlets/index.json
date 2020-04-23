@@ -1,0 +1,19 @@
+{
+  "restaurants": [
+    {
+      "href": "https://yumchaexpress.oddle.me/en_SG/",
+      "categories": ["chinese"],
+      "image": "https://ucarecdn.com/5af25294-6e1f-44b2-953b-4e7979583b3e/-/crop/1200x499/0,0/-/format/auto/-/resize/3000x/",
+      "avatar": "img/yumcha.png",
+      "title": "Yum Cha Express",
+      "summary": "Dim sum, Chinese soup, bento etc.",
+      "body": [
+        { "bold": true, "text": "🚚 Islandwide Delivery 🚚" },
+        { "bold": false, "text": "$5 delivery fee. Minimum order $25. Valid from 8 - 14 April 2020. Not applicable to Tuas, Gedong and Jurong Industrial." },
+        { "bold": false, "break": true },
+        { "bold": true, "text": "🚶 Self Pick Up Available 🚶" },
+        { "bold": false, "text": "15% off ALL pickup orders. Use promo code \"PICKMEUP15\"." }
+      ]
+    }
+  ]
+}

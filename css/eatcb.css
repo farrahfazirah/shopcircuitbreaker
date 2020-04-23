@@ -1,0 +1,9 @@
+.card-custom {
+  margin: 1.5rem;
+}
+.card-custom-avatar > .img-fluid {
+  background-color: #000;
+}
+.card-body {
+  overflow-y: auto;
+}

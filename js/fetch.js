@@ -82,3 +82,6 @@ oboe('outlets/index.json')
     
     grid.appendChild(card)
   })
+  .done(() => {
+    initIsotope()
+  })
